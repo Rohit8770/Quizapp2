@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz.Start">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100sp"
+        app:cardCornerRadius="65sp"
+        android:elevation="450sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/quizzz" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="25sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:layout_marginTop="350sp"
+        app:cardCornerRadius="25sp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:id="@+id/etName"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START_QUIZ"
+        android:textSize="25sp"
+        android:id="@+id/bt1"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="50sp"
+        android:textStyle="italic"
+        android:layout_marginTop="500sp"
+        android:padding="2sp"/>
+</RelativeLayout>
